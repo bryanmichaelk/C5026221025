@@ -1,0 +1,29 @@
+* {
+    font-family: "Nunito", sans-serif;
+  }
+  .container-fluid {
+    background-image: url('../img/webTiruan/Polygon1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: 100vh;
+  }
+
+  .container-fluid h1 {
+    font-weight: 800;
+    text-shadow: 2cap 2px #000000;
+    /* font-size: 75px; */
+  }
+
+  .container-fluid .row h3 {
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .container-fluid .row .col-6 p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .logo {
+    width: 125px;
+  }
