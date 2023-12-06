@@ -31,8 +31,8 @@
                         <div class="col-sm-3 font-weight-bold ">Alamat</div>
                         <div class="col-sm-9">: {{ $p->pegawai_alamat }}</div>
                     </div>
-                    <div class="d-flex justify-content-center mt-3" href="/pegawai">
-                        <a class="btn btn-primary w-25 ">OK</a>
+                    <div class="d-flex justify-content-center mt-3">
+                        <a href="/pegawai" class="btn btn-primary w-25 ">OK</a>
                     </div>
 
             </div>
