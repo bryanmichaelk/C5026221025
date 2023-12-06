@@ -42,6 +42,12 @@ class PegawaiController extends Controller
 
 	}
 
+    //method untuk melihat data pegawai
+    public function view($id){
+        $pegawai = DB::table('pegawai')->where('pegawai_id',$id)->get();
+        return view('view',['pegawai'=> $pegawai]);
+    }
+
 	// method untuk edit data pegawai
 	public function edit($id)
 	{
