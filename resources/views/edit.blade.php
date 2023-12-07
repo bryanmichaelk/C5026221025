@@ -36,11 +36,11 @@
             <div class="form-group row">
                 <label for="alamat" class="col-sm-1 col-form-label mr-2">Alamat</label>
                 <div class="col-sm-5">
-                    <input type="text" class="form-control" id="alamat" name="alamat"
-                        value="{{ $p->pegawai_alamat }}">
+                    <textarea type="text" class="form-control" id="alamat" name="alamat" value="{{ $p->pegawai_alamat }}">
+                    </textarea>
                 </div>
             </div>
-            <input type="submit" value="Simpan Data">
+            <input type="submit" value="Simpan Data" class="btn btn-primary">
         </form>
     @endforeach
 
