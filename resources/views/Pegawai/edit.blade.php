@@ -5,7 +5,7 @@
     <h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
     <h3>Edit Pegawai</h3>
 
-    <a href="/pegawai"> Kembali</a>
+    <a href="/pegawai" class="btn btn-info"> Kembali</a>
 
     <br />
     <br />
@@ -36,7 +36,7 @@
             <div class="form-group row">
                 <label for="alamat" class="col-sm-1 col-form-label mr-2">Alamat</label>
                 <div class="col-sm-5">
-                    <textarea type="text" class="form-control" id="alamat" name="alamat" value="{{ $p->pegawai_alamat }}">
+                    <textarea type="text" class="form-control" id="alamat" name="alamat" value="">{{ $p->pegawai_alamat }}
                     </textarea>
                 </div>
             </div>

@@ -13,7 +13,7 @@ class NilaiController extends Controller
 		$nilaikuliah = DB::table('nilaikuliah')->get();
         // $pegawai = DB::table('pegawai')->paginate(15);
     	// mengirim data pegawai ke view index
-		return view('nilaikuliah',['nilaikuliah' => $nilaikuliah]);
+		return view('/Nilai/nilaikuliah',['nilaikuliah' => $nilaikuliah]);
 
 	}
 
@@ -22,7 +22,7 @@ class NilaiController extends Controller
 	{
 
 		// memanggil view tambah
-		return view('tambahData');
+		return view('/Nilai/tambahData');
 
 	}
 
