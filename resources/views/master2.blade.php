@@ -18,12 +18,6 @@
 
         <!-- Links -->
         <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link 1</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link 2</a>
-            </li>
 
             <!-- Dropdown -->
             <li class="nav-item dropdown">
@@ -35,6 +29,7 @@
                     <a class="dropdown-item" href="/nilaikuliah">Nilai Kuliah</a>
                     <a class="dropdown-item" href="/keranjangbelanja">Keranjang Belanja</a>
                     <a class="dropdown-item" href="/baju">Baju</a>
+                    <a class="dropdown-item" href="/mahasiswa">Mahasiswa</a>
                 </div>
             </li>
         </ul>

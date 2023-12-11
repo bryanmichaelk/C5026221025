@@ -122,3 +122,10 @@ Route::get('/baju/hapus/{id}','App\Http\Controllers\BajuController@hapus');
 
 Route::get('/baju/cari','App\Http\Controllers\BajuController@cari');
 Route::get('/baju/view/{id}','App\Http\Controllers\BajuController@view');
+
+//Route RU mahasiswa
+Route::get('/mahasiswa','App\Http\Controllers\MahasiswaController@index');
+Route::get('/mahasiswa/edit/{id}','App\Http\Controllers\MahasiswaController@edit');
+Route::post('/mahasiswa/update','App\Http\Controllers\MahasiswaController@update');
+Route::get('/mahasiswa/cari','App\Http\Controllers\MahasiswaController@cari');
+Route::get('/mahasiswa/view/{id}','App\Http\Controllers\MahasiswaController@view');
